@@ -8,6 +8,8 @@ import pytest
 
 from sktime.forecasting.chronos import ChronosForecaster
 from sktime.forecasting.chronos2 import Chronos2Forecaster
+
+
 def _make_chronos(monkeypatch):
     """Create a Chronos forecaster without loading model metadata."""
 
